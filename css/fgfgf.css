@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:wght@300&display=swap');
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:wght@300&family=Roboto+Mono:wght@300&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200&family=Poppins:wght@600&family=Raleway:wght@300&family=Roboto+Mono:wght@300&family=Roboto:ital,wght@1,100&display=swap');
+/* font-family: 'Jost', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200&family=Poppins:wght@600&family=Raleway:wght@300&family=Roboto+Mono:wght@300&family=Roboto:ital,wght@1,700&display=swap');
+/* font-family: 'Jost', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+.topfloating{
+    background-color: rgb(14, 48, 81);
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+}
+.grid{
+    grid-template-columns: 1fr 1fr;
+    background-color: #333;
+    display: flex;
+    display: grid;
+    height: 70px;
+}
+.flex1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.flex2{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: white;
+}
+.img5 img{
+      width: 120px;
+      margin-right: 80px;
+}
+.img1 img{
+    margin-left: 100px;
+    width: 100px;
+    height: 70px;
+    margin-bottom: 225px;
+}
+.img2 img{
+    width: 60px;
+    margin-left: 15px;
+    margin-bottom: 228px;
+}
+.img3 img{
+    width: 60px;
+    margin-left: 15px;
+    margin-bottom: 228px;
+}
+.img4 img{
+    width: 60px;
+    margin-left: 15px;
+    margin-bottom: 228px;
+}
+.flex2 div{
+    font-size: 20px;
+    margin-right: 15px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.flex2 span:hover{
+    color: yellow;
+}
+.flex2{
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.flex2 i:hover{
+     color: red;
+}
+.firstgrid{
+    grid-template-columns: 1fr 3fr;
+    display: flex;
+    background-color: white;
+    display: grid;
+    height: 70px;
+    position: sticky;
+    top: 0;
+}
+.firstgrid div{
+    position: sticky;
+    top: 0;
+}
+.firstgridimage img{
+    width: 209px;
+    margin-left: 88px;
+}
+.firstgrid2{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 2px;
+    gap: 20px;
+    letter-spacing: 2px;
+    font-size: 8px;
+    color: #0e3051;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;;
+}
+.firstgrid2 h1:hover{
+    border-bottom: 2px solid red;
+}
+.buttongrid input{
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+}
+.buttongrid i{
+    font-size: 18px;
+    margin-left: 40px;
+}
+.secondgrid{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.650),rgba(0, 0, 0, 0.650)), url(../imagess/bigimg/modern-pretty-girl-beige-coat-standing-near-building-outdoor-glamorous-sunglasses-her-face-makeup-stylish-tail-hairstyle-hand-near-face-lot-summer-light-last-warm-days_343629-69.avif);
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    display: grid;
+}  
+.shopnow h2{
+    border: 2px solid  white;
+    cursor: pointer;
+    height: 30px;
+    width: 150px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 11px;
+    font-family: apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+} 
+.shopnow h2:hover{
+    background-color: black;
+}
+.secondsubgrid{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 235px;
+}
+.dashdop h4{
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 1px;
+    margin-left: 229px;
+    font-family: apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    
+}
+.dashdop h1{
+    font-size: 60px;
+    margin-left: 175px;
+    font-family: apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+}
+.dashdop h2{
+    margin-left: 256px;
+}
+.thirdgrid{
+    margin-top: 70px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.thirdgrid h1{
+    width: 100%;
+    font-weight: normal;
+    text-align: center;
+    font-family: apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    font-size: 20px;
+}
+.forthgrid{
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #f4e399;
+    height: 275px;
+    margin-top: 20px;
+    display: flex;
+}
+.code{
+    display: flex;
+    gap: 10px;
+}
+.code h3{
+    border: 2px dotted black;
+    border-radius: 6px;
+    background-color: #f4c700;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+}
+.code h4{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+}
+.available h1{
+    font-family: apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+}
+.flateoff h4{
+    font-family: apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+}
+.codeimg img{
+    margin-top: 9px;
+    width: 120px;
+    height: 43px;
+}
+.forthfirst{
+    margin: 50px;
+    margin-top: 32px;
+    justify-content: center;
+}
+.forthsecond img{
+    width: 50%;
+    margin: 50px;
+}
+.forthsecond{
+    text-align: end;
+    margin-left: 1px;
+}
+.forththird{
+    margin-left: 1px; 
+}
+.forththird img{
+    margin-right: 30px;
+    width: 120%;
+    margin: 10px;
+}
+.freshhead{
+    text-align: center;
+    font-family: apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+}
+.freshallimg{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.freshallimg h2{
+    text-align: center; 
+    font-weight: normal;
+    font-size: 20px;
+    font-family: apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+}
+.shopallen{
+    margin-left: 103px;
+}
+    
+
+    
